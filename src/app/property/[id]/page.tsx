@@ -140,7 +140,7 @@ export default function PropertyPage({ params }: { params: { id: string } }) {
             
             {/* Location */}
             <section id="location" className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">Where you'll be</h2>
+              <h2 className="text-2xl font-bold mb-4">Where you&apos;ll be</h2>
               <p className="mb-4">
                 Located in the heart of Noosa, this property offers easy access to beaches, restaurants, and attractions. Noosa Main Beach is just steps away, and the famous Hastings Street is within walking distance.
               </p>
@@ -207,7 +207,7 @@ export default function PropertyPage({ params }: { params: { id: string } }) {
                 </button>
                 
                 <p className="text-center text-gray-500 text-sm mt-4">
-                  You won't be charged yet
+                  You won&apos;t be charged yet
                 </p>
               </form>
             </div>

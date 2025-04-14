@@ -1,4 +1,4 @@
-import { Property, BookingRequest, BookingResponse } from '@/types'
+import { BookingRequest, BookingResponse } from '@/types'
 
 /**
  * This file will handle Guesty API interactions when integration is ready
@@ -6,9 +6,6 @@ import { Property, BookingRequest, BookingResponse } from '@/types'
  */
 
 export async function getAvailability(
-  propertyId: string, 
-  startDate: string, 
-  endDate: string
 ) {
   // This would make a call to Guesty API to check availability
   // For now, just return mock data

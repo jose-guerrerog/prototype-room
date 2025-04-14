@@ -58,7 +58,7 @@ export default function BookingWidget({ property }: { property: Property }) {
         </button>
         
         <p className="text-center text-gray-500 text-sm mt-4">
-          You won't be charged yet
+          You won&apos;t be charged yet
         </p>
       </form>
     </div>
