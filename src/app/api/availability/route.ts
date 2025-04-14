@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-export async function POST(request: Request) {
+export async function POST() {
   
   // This would eventually check availability with Guesty API
   // For now, just return mock data
