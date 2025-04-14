@@ -42,7 +42,7 @@ The property is ideally located within walking distance to Noosa's famous Hastin
       {icon: '🎉', title: 'No parties or events', content: ''}
     ],
     images: [
-      '/images/fig1.jpg',
+      '/images/fig1.png',
       '/images/fig2.jpg',
       '/images/fig3.jpg',
       '/images/fig4.jpg',
@@ -90,7 +90,7 @@ Perched on a hillside with panoramic views of the surrounding mountains and vall
       '/images/fig4.jpg',
       '/images/fig3.jpg',
       '/images/fig2.jpg',
-      '/images/fig1.jpg',
+      '/images/fig1.png',
     ],
   }
 ];
