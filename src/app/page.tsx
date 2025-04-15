@@ -40,21 +40,21 @@ export default function Home() {
   return (
     <main>
       <header className="sticky top-0 bg-white border-b border-gray-200 z-10">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-rose-500">
             Noosa Stays
           </Link>
 
-          <nav className="hidden md:flex space-x-6">
+          <nav className="flex items-center space-x-4 sm:space-x-6">
             <Link
               href="#amenities"
-              className="text-gray-800 hover:text-rose-500 transition"
+              className="text-gray-800 hover:text-rose-500 transition hidden sm:inline-block"
             >
               Amenities
             </Link>
             <Link
               href="#location"
-              className="text-gray-800 hover:text-rose-500 transition"
+              className="text-gray-800 hover:text-rose-500 transition hidden sm:inline-block"
             >
               Location
             </Link>
@@ -73,8 +73,12 @@ export default function Home() {
         <img
           src="/images/fig1.png"
           alt={mainProperty.title}
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ zIndex: -1 }}
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{ 
+            zIndex: -1, 
+            filter: 'brightness(0.7) contrast(1.1) sharp(1.2)',  // Enhances image clarity
+            objectPosition: 'center'
+          }}
         />
         <div
           className="absolute inset-0 bg-black bg-opacity-40"
@@ -108,7 +112,7 @@ export default function Home() {
             </div> */}
             <Slider {...settings}>
               {heroImages.map((image, index) => (
-                <div key={index} className="h-[600px] relative">
+                <div key={index} className="h-[450px] relative">
                   <img
                     src={image}
                     alt={`Property view ${index + 1}`}
